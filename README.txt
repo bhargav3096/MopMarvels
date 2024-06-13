@@ -57,12 +57,16 @@ Migration was done 20240613115009_InitialCreate
 We created several categories of Mop
 Now, I (Bhargav Chaudhari) handed over this project to Yash who will create about us page....
 
-Started working on about us page
-Where added the deailts of what company is about? Why choose us? and some company information
+2024-06-13 1850 UTC
 
+Started working on about us page
+Where added the deailts of what company is about? Why choose us? and some company information.
+
+@024-06-13 1900 UTC
+
+As i can see in the branch history my name is displayed as "Yansh" but it should be "Yash Aggarwal" So Please consider it. 
 
 2024-06-13 1920 UTC
-
 
 Hi Ankita,,
 Facing issues to access the database
