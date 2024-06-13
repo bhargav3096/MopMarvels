@@ -49,10 +49,13 @@ Started adding Product and there details 10 Products are added
 
 
 
-
 2024-06-13 1000 UTC
 
 Migration was done 20240613115009_InitialCreate
+*Note: please note that if Add-Migration MopMarvelsContex is not working then please write "Add-Migration -Context MopMarvelsContext"
+
+Logo has been uploaded on the index.cshtml page of our company "MopMarvels"
+
 
 We created several categories of Mop
 Now, I (Bhargav Chaudhari) handed over this project to Yash who will create about us page....
@@ -65,6 +68,7 @@ Where added the deailts of what company is about? Why choose us? and some compan
 @024-06-13 1900 UTC
 
 As i can see in the branch history my name is displayed as "Yansh" but it should be "Yash Aggarwal" So Please consider it. 
+
 
 2024-06-13 1920 UTC
 
