@@ -1,6 +1,6 @@
 2024-06-06 1529 UDT
 Team Name: XI
-Member name: 
+Member name: Yash, Bhargav, Ankita
 Product name: MOP
 Company Name: MopMarvel: Mop all the dust!
 
