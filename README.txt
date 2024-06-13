@@ -65,10 +65,13 @@ Now, I (Bhargav Chaudhari) handed over this project to Yash who will create abou
 Started working on about us page
 Where added the deailts of what company is about? Why choose us? and some company information.
 
-@024-06-13 1900 UTC
+2024-06-13 1900 UTC
 
 As i can see in the branch history my name is displayed as "Yansh" but it should be "Yash Aggarwal" So Please consider it. 
 
+2024-06-13 1910 UTC
+
+Worked on seed data as database was not visible at first then update the datebase and did migration again
 
 2024-06-13 1920 UTC
 
