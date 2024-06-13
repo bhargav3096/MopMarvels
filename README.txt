@@ -60,6 +60,14 @@ Now, I (Bhargav Chaudhari) handed over this project to Yash who will create abou
 Started working on about us page
 Where added the deailts of what company is about? Why choose us? and some company information
 
+
+2024-06-13 1920 UTC
+
+
 Hi Ankita,,
 Facing issues to access the database
-Application is running but data is not showing
+Application is running but data is not showing data-base 
+I updated-database in Nutget Packet managers with "Update-Database" command.
+
+Solving the error of database tried to update the database but then also database was not visible.
+
