@@ -59,3 +59,7 @@ Now, I (Bhargav Chaudhari) handed over this project to Yash who will create abou
 
 Started working on about us page
 Where added the deailts of what company is about? Why choose us? and some company information
+
+Hi Ankita,,
+Facing issues to access the database
+Application is running but data is not showing
