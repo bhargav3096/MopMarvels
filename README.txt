@@ -71,3 +71,5 @@ I updated-database in Nutget Packet managers with "Update-Database" command.
 
 Solving the error of database tried to update the database but then also database was not visible.
 
+2024-06-13 1930 UTC
+I Worked on seed data because database is not displayed. 
