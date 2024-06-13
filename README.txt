@@ -56,3 +56,5 @@ Migration was done 20240613115009_InitialCreate
 
 We created several categories of Mop
 Now, I (Bhargav Chaudhari) handed over this project to Yash who will create about us page....
+
+started..
