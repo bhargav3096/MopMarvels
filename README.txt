@@ -55,6 +55,4 @@ Started adding Product and there details 10 Products are added
 Migration was done 20240613115009_InitialCreate
 
 We created several categories of Mop
-1). Spray Mop
-2). Spin mop
-3).
+Now, I (Bhargav Chaudhari) handed over this project to Yash who will create about us page....
