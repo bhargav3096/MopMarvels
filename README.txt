@@ -74,3 +74,9 @@ Guest User Credential
 
 Email: guest@gmail.com
 password: Guest0)(*&^)
+
+I (Ankita) created and implemented the CSS of the different pages and done about us page.
+
+But now i am facing difficulties to run application after cloning...
+Yesterday it was working but today i don't know what happened...
+and i checked the login of both admin and guest account and it's working.
