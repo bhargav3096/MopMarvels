@@ -54,17 +54,21 @@ Started adding Product and there details 10 Products are added
 
 Migration was done 20240613115009_InitialCreate
 
+2024-06-14 1100 UTC
+
 We created several categories of Mop
 Now, I (Bhargav Chaudhari) handed over this project to Yash who will create about us page....
 
+2024-06-16 1400 UTC
 Started working on about us page
 Where added the deailts of what company is about? Why choose us? and some company information
 
+2024-06-16 1800 UTC
 Hi Ankita,,
 Facing issues to access the database
 Application is running but data is not showing
 
-
+2024-06-17 1500 UTC
 Admin User Credential
 
 Email: admin@gmail.com
@@ -75,8 +79,28 @@ Guest User Credential
 Email: guest@gmail.com
 password: Guest0)(*&^)
 
+2024-06-18 1800 UTC
+
 I (Ankita) created and implemented the CSS of the different pages and done about us page.
 
 But now i am facing difficulties to run application after cloning...
 Yesterday it was working but today i don't know what happened...
 and i checked the login of both admin and guest account and it's working.
+
+2024-06-19 1100 UTC
+Everything was working well till now but as I pushed after making some changes my team mates are not able to open it from
+the git hub repositories as it is showinng the error which I am mentioning here "Unable to start program 
+"C:\Users\Bhargav\Source\Repos\MopMarvels-Fina\bin\Debug\net7.0 \MopMarvels.exe'. The system cannot find the file specified."
+
+2024-06-19 1900 UTC
+
+Tried alot to fix it with making a new repository and deleting it. Provide extra access to the team mates for the access but didn't helped
+
+2024-06-20 0900 UTC
+
+The good news is we made multiple local clone in our system which we were able to see on our system. Made changed to the current repository
+and we are able to see it.
+
+2024-06-20 1200 UTC
+
+Now working on to deploy the web application on the azure.
