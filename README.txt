@@ -104,3 +104,8 @@ and we are able to see it.
 2024-06-20 1200 UTC
 
 Now working on to deploy the web application on the azure.
+
+
+2024-06-20 1700 UTC
+
+Created a account for azure web application deployment.
