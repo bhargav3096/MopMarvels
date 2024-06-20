@@ -1,0 +1,42 @@
+﻿@model IEnumerable<MopMarvels.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<style>
+.container {
+    display: flex;
+}
+
+.left-side {
+    flex: 1;
+    text-align: left;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.right-side {
+    flex: 1;
+    padding: 50px; 
+}
+
+.fixed-size {
+    width: 500px;
+    height: 500px;
+}
+</style>
+<div class="container">
+    <div class="left-side">
+        <img src="~/img/logo.png" class="fixed-size" alt="Logo" />
+    </div>
+    <div class="right-side">
+        <h1>Welcome to MopMarvel Mops</h1>
+        <p>At MopMarvel, we believe that a clean home is a happy home. As a leading provider of premium mopping solutions, we are dedicated to helping you achieve a spotless and hygienic environment with ease. Our innovative mops and cleaning products are designed to make your cleaning routine efficient, effective, and even enjoyable.</p>
+
+        <p>Explore our product and discover all we have to offer at <a asp-area="" asp-controller="Home" asp-action="Index">MopMarvels</a></p>
+    </div>
+    </div>
+</div>
+
+

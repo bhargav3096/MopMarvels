@@ -1,6 +1,6 @@
 2024-06-06 1529 UDT
 Team Name: XI
-Member name: Yash, Bhargav, Ankita
+Member name: 
 Product name: MOP
 Company Name: MopMarvel: Mop all the dust!
 
@@ -49,38 +49,28 @@ Started adding Product and there details 10 Products are added
 
 
 
+
 2024-06-13 1000 UTC
 
 Migration was done 20240613115009_InitialCreate
-*Note: please note that if Add-Migration MopMarvelsContex is not working then please write "Add-Migration -Context MopMarvelsContext"
-
-Logo has been uploaded on the index.cshtml page of our company "MopMarvels"
-
 
 We created several categories of Mop
 Now, I (Bhargav Chaudhari) handed over this project to Yash who will create about us page....
 
-2024-06-13 1850 UTC
-
 Started working on about us page
-Where added the deailts of what company is about? Why choose us? and some company information.
-
-2024-06-13 1900 UTC
-
-As i can see in the branch history my name is displayed as "Yansh" but it should be "Yash Aggarwal" So Please consider it. 
-
-2024-06-13 1910 UTC
-
-Worked on seed data as database was not visible at first then update the datebase and did migration again
-
-2024-06-13 1920 UTC
+Where added the deailts of what company is about? Why choose us? and some company information
 
 Hi Ankita,,
 Facing issues to access the database
-Application is running but data is not showing data-base 
-I updated-database in Nutget Packet managers with "Update-Database" command.
+Application is running but data is not showing
 
-Solving the error of database tried to update the database but then also database was not visible.
 
-2024-06-13 1930 UTC
-I Worked on seed data because database is not displayed. 
+Admin User Credential
+
+Email: admin@gmail.com
+password: Admin0)(*&^)
+
+Guest User Credential
+
+Email: guest@gmail.com
+password: Guest0)(*&^)

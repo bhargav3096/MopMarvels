@@ -19,8 +19,9 @@ namespace MopMarvels.Controllers
             _context = context;
         }
 
+
         // GET: Products
-        public async Task<IActionResult> Index(string searchString)
+        public async Task<IActionResult> Index(string ProductCategory, string searchString)
         //public string Index()
         {
             return _context.Product != null ?
@@ -29,6 +30,7 @@ namespace MopMarvels.Controllers
             // return "This is my default action...";
 
         }
+
 
         // GET: Products/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -53,6 +55,7 @@ namespace MopMarvels.Controllers
         {
             return View();
         }
+     
 
         // POST: Products/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
@@ -163,4 +166,26 @@ namespace MopMarvels.Controllers
             return (_context.Product?.Any(e => e.ID == id)).GetValueOrDefault();
         }
     }
+
+    internal class ProductCategoryViewModel
+    {
+        public SelectList Category { get; set; }
+        public List<Product> Name { get; set; }
+    }
+
+    public class AboutUs : Controller
+   {
+     public IActionResult Index()
+     {
+            return View();
+        }
+    }
+
+    public class Intro : Controller
+    {
+        public IActionResult Index()
+        {
+            return View();
+        }
+   }
 }

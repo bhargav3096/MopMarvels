@@ -1,53 +1,73 @@
 ﻿@model IEnumerable<MopMarvels.Models.Product>
 
-    @{
+@{
     ViewData["Title"] = "Index";
+}
+<style>
+    tr:hover{
+        transform: translateY(-2px); 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    td:hover{
+        transform: translateY(-2px); 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 
-    <div class="text-center">
-        <img src="~/img/logo.png" />
-    </div>
-
-    <h1>MopMarvel's Product</h1>
-
-    <p>
-        <a asp-action="Create">Create New</a>
-    </p>
+    body {
+        /* Set background image */
+        background-image: url('C:\Users\Bhargav\source\repos\MopMarvels\wwwroot\img\img.jpeg');
+    }
+</style>
+<body>
 
 
-    <table class="table">
-        <thead>
-            <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.Name)
-                </th>
 
-                <th>
-                    @Html.DisplayNameFor(model => model.Price)
-                </th>
+<h1>MopMarvel's Product</h1>
 
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr style="background-color: #f2f2f2;">
+            <th style="border: 5px solid #e0e0e0; text-align: left; padding: 8px;">
+                @Html.DisplayNameFor(model => model.ID)
+            </th>
+            <th style="border: 5px solid #e0e0e0; text-align: left; padding: 8px;">
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+
+            <th style="border: 5px solid #e0e0e0; text-align: left; padding: 8px;">
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
         {
-            <tr>
-                <td>
+            <tr style="background-color: #f2f2f2;">
+                <td style="border: 5px solid #e0e0e0; padding: 8px;">
+                    @Html.DisplayFor(modelItem => item.ID)
+                </td>
+                <td style="border: 5px solid #e0e0e0; padding: 8px;">
                     @Html.DisplayFor(modelItem => item.Name)
                 </td>
 
-                <td>
+                <td style="border: 5px solid #e0e0e0; padding: 8px;">
                     @Html.DisplayFor(modelItem => item.Price)
                 </td>
 
-                <td>
+                <td style="border: 5px solid #e0e0e0; padding: 8px;">
 
-                    <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                    <a asp-action="Edit" asp-route-id="@item.ID">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.ID" style="color: blue;">Details</a> |
+                    <a asp-action="Edit" asp-route-id="@item.ID" style="color: blue;">Edit</a>
 
                 </td>
             </tr>
         }
-        </tbody>
-    </table>
+    </tbody>
+</table>
+</body>
